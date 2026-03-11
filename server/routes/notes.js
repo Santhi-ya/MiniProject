@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Note = require("../models/notes"); // correct path
+const Note = require("../models/Note.js"); // correct path
 
 // GET all notes
 router.get("/", async (req, res) => { 
